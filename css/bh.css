@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+}
+#hamsters {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 150px;
+	width: 100%;
+	text-align: center;
+}
+#copyrights {
+	font-size: 70%;
+	font-family: Arial;
+	position: absolute;
+	right: 10px;
+	bottom: 0;
+	padding: 4px;
+}
+#copyrights a {
+	color: #FF9933;
+}
+#time {
+        position: absolute;
+        right: 20px;
+        top: 0;
+	font-size: 44px;
+	font-family: Arial;
+	font-weight: bold;
+	line-height: 145%;
+	color: #D6D6D6;
+	margin-top: 180px;
+}
+#dead {
+	position: absolute;
+	right: 150px;
+	top: 0;
+}
+

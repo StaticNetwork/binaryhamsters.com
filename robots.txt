@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /js /css /i
+Host: binaryhamsters.com
+
+User-agent: i-robot
+Disallow: /damage/to/humans
