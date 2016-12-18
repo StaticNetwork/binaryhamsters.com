@@ -65,6 +65,6 @@ function hamster() {
 		utchamsters = utchamsters + "<img src=\"/i/timestamp"+biha+".gif\" border=\"0\" />";
 	});
 
-	document.getElementById("time").innerHTML = timeh+"<br />"+timem+"<br />"+times+"<br />"+utchamsters;
+	document.getElementById("time").innerHTML = timeh+"<br />"+timem+"<br />"+times;
 
 }
