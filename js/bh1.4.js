@@ -57,8 +57,9 @@ function hamster() {
 		}
 	}
 
-	var hamstertimestamp = hDate.getTime();
+	var hamsterutc = Math.floor( hDate.getTime() / 1000);
+	var hamsterutcbin = hamsterutc.toString(2);
 
-	document.getElementById("time").innerHTML = timeh+"<br />"+timem+"<br />"+times+"<br />"+hamstertimestamp;
+	document.getElementById("time").innerHTML = timeh+"<br />"+timem+"<br />"+times+"<br />"+hamsterutc+"<br />"+hamsterutcbin;
 
 }
