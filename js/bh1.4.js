@@ -58,8 +58,13 @@ function hamster() {
 	}
 
 	var hamsterutc = Math.floor( hDate.getTime() / 1000);
-	var hamsterutcbin = hamsterutc.toString(2);
+	var hamsterutcbin = hamsterutc.toString(2).split("").reverse();
+	var utchamsters = "";
 
-	document.getElementById("time").innerHTML = timeh+"<br />"+timem+"<br />"+times+"<br />"+hamsterutc+"<br />"+hamsterutcbin;
+	hamsterutcbin.forEach(function(biha) {
+		utchamsters = "<img src=\"/i/timestamp"+biha+".gif\" border=\"0\" />\n";
+	});
+
+	document.getElementById("time").innerHTML = timeh+"<br />"+timem+"<br />"+times+"<br />"+utchamsters;
 
 }
