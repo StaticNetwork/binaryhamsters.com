@@ -24,11 +24,13 @@ body {
 }
 #copyrights img {
 	margin: 3px;
+	opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 #time {
-        position: absolute;
-        right: 20px;
-        top: 0;
+  position: absolute;
+  right: 20px;
+  top: 0;
 	font-size: 44px;
 	font-family: Arial;
 	font-weight: bold;
