@@ -57,6 +57,8 @@ function hamster() {
 		}
 	}
 
-	document.getElementById("time").innerHTML = timeh+"<br />"+timem+"<br />"+times;
+	var hamstertimestamp = hDate.UTC();
+
+	document.getElementById("time").innerHTML = timeh+"<br />"+timem+"<br />"+times+"<br >"+hamstertimestamp;
 
 }
