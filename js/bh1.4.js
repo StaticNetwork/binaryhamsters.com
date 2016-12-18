@@ -57,6 +57,8 @@ function hamster() {
 		}
 	}
 
+	document.getElementById("time").innerHTML = timeh+"<br />"+timem+"<br />"+times;
+
 	var hamsterutc = Math.floor( hDate.getTime() / 1000);
 	var hamsterutcbin = hamsterutc.toString(2).split("");
 	var utchamsters = "";
@@ -65,6 +67,6 @@ function hamster() {
 		utchamsters = utchamsters + "<img src=\"/i/timestamp"+biha+".gif\" border=\"0\" />";
 	});
 
-	document.getElementById("time").innerHTML = timeh+"<br />"+timem+"<br />"+times;
+	document.getElementById("utchamsters").innerHTML = utchamsters;
 
 }
