@@ -59,6 +59,6 @@ function hamster() {
 
 	var hamstertimestamp = hDate.UTC();
 
-	document.getElementById("time").innerHTML = timeh+"<br />"+timem+"<br />"+times+"<br >"+hamstertimestamp;
+	document.getElementById("time").innerHTML = timeh+"<br />"+timem+"<br />"+times+"<br />"+hamstertimestamp;
 
 }
