@@ -17,9 +17,13 @@ body {
 	right: 10px;
 	bottom: 0;
 	padding: 4px;
+	text-align: right;
 }
 #copyrights a {
 	color: #FF9933;
+}
+#copyrights img {
+	margin: 3px;
 }
 #time {
         position: absolute;
@@ -37,4 +41,3 @@ body {
 	right: 150px;
 	top: 0;
 }
-
